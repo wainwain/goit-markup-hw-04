@@ -24,6 +24,15 @@ h6 {
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.medium {
+  font-weight: 500;
 }
 
 ul {
@@ -84,10 +93,8 @@ header {
 }
 
 .main-navigation {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  list-style: none;
   display: flex;
+  gap: 40px;
 }
 
 .main-contacts {
@@ -122,12 +129,6 @@ header {
 
 .main-navigation > li > a {
   color: var(--NAVYBLUE);
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  padding: 20px;
 }
 
 .main-navigation:active {
@@ -245,12 +246,6 @@ h3 {
 
 .solutions p {
   color: var(--SLATE);
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   margin: 0;
 }
 
@@ -541,6 +536,10 @@ footer span {
   gap: 24px;
   flex-basis: calc((100% - 40px) / 3);
   justify-content: center;
+}
+
+.option-list img {
+  display: block;
 }
 
 .option-list > li:hover,
